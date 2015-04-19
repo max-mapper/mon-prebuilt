@@ -1,7 +1,5 @@
 # mon-prebuilt
 
-[![build status](http://img.shields.io/travis/maxogden/mon-prebuilt.svg?style=flat)](http://travis-ci.org/maxogden/mon-prebuilt)
-
 Install [mon](https://github.com/tj/mon) prebuilt binaries for Linux/Mac using npm.
 
 mon is a simple single-process process monitoring program written in C.
