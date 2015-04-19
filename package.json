@@ -12,7 +12,6 @@
   "bin": {
     "mon": "mon"
   },
-  "main": "index.js",
   "author": "Max Ogden",
   "license": "BSD",
   "bugs": {

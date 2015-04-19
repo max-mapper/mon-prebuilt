@@ -32,5 +32,8 @@ var shebang = {
 if (!paths[platform]) throw new Error('Unknown platform: ' + platform)
 
 nugget(url, {target: 'mon', dir: __dirname, resume: false, verbose: true}, function (err) {
-  if (err) return onerror(err)
+  if (err) {
+    console.error('There was an error downloading mon for your OS. If you are on Linux or Mac, please open an issue with this error message and the URL.')
+    return onerror(err)
+  }
 })
