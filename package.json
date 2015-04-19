@@ -1,6 +1,6 @@
 {
   "name": "mon-prebuilt",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Install mon prebuilt binaries using npm",
   "repository": {
     "type": "git",
