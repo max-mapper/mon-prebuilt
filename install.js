@@ -7,7 +7,7 @@ var nugget = require('nugget')
 
 var platform = os.platform()
 var arch = os.arch()
-var version = '1.2.2'
+var version = '1.2.3'
 var url = 'https://github.com/maxogden/mon-prebuilt/releases/download/v' + version + '/mon-v' + version + '-' + platform + '-' + arch
 
 function onerror (err) {
