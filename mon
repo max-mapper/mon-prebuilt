@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "mon installation failed" && exit 1

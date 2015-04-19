@@ -1,0 +1,25 @@
+{
+  "name": "mon-prebuilt",
+  "version": "1.2.2",
+  "description": "Install mon prebuilt binaries using npm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/mon-prebuilt"
+  },
+  "scripts": {
+    "install": "node install.js"
+  },
+  "bin": {
+    "mon": "mon"
+  },
+  "main": "index.js",
+  "author": "Max Ogden",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/maxogden/mon-prebuilt/issues"
+  },
+  "homepage": "https://github.com/maxogden/mon-prebuilt",
+  "dependencies": {
+    "nugget": "^1.5.1"
+  }
+}
